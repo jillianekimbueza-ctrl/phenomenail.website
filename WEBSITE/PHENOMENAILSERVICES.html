@@ -1,0 +1,245 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhenomeNail- Salon</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 3px;
+            box-sizing:border-box;
+        }
+    .overlay { 
+        padding: 10px 20px;
+        border-radius: 10px
+    }
+
+        body {
+            font-style: italic;
+            background-color:rgba(255, 182, 193, 0.505); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            color: black;
+            text-align:justify;
+            font-size: larger;
+            
+        }
+        header{
+            background-image: url("images/1.png");
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            color: whitesmoke;
+            padding: 10 px 10px;
+            text-align: left;
+            font-size: xx-large;
+            background-blend-mode:color-dodge;
+        
+        }
+        
+        nav {
+            
+            padding: 10px;
+            text-align:left;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration:underline;
+            color: black;
+            font-weight: bold;
+        }
+        section{
+            
+            padding: 20px;
+            
+        }
+
+        .services,.gallery{
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+
+        }
+        .services {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .work,.gallery{
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+
+        }
+        .work{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+        .img-container {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+            padding: 10px;
+            position:relative;
+        }
+        .img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .label {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration:underline;
+        }
+        .label2 {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration:underline;
+        }
+
+        footer{ 
+            background-color: #ff69b4;
+            color:white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<nav>
+    <a href="PHENOMENAIL.html">Home</a>
+    <a href="PHENOMENAIL_SERVICES.html" target="_blank">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+<header>
+    <div class = "overlay">
+        <h1>PhenomeNail</h1>
+    </div>
+</header>
+
+
+<body>      
+
+<section id="services">
+    <h1>What We Offer</h1>
+    <div class="services">
+      
+      <div class= "img-container">
+        <img src="images/manicure 1.jpg" alt="manicure">
+        <div class="label"> <strong> Manicure </strong> </div>
+      </div>
+      <div class="img-container">
+        <img src="images/pedicure.jpg" alt="pedicure">
+       <div class="label"><strong> Pedicure </strong></div>
+      </div>
+      <div class="img-container">
+        <img src="images/waxing.jpg" alt="waxing">
+        <div class="label"> <strong> Waxing </strong> </div>
+      </div>
+      <div class="img-container">
+        <img src="images/gelpolish.jpg" alt="gelpolish">
+       <div class="label"> <strong> Gel Polish </strong> </div>
+      </div>
+      <div class="img-container">
+        <img src="images/nailex.jpg" alt="nailex">
+        <div class="label"> <strong> Nail Extention </strong> </div>
+      </div>
+      <div class="img-container">
+        <img src="images/footspa.jpg" alt="footspa">
+        <div class="label"> <strong> Foot Spa </strong> </div>
+      </div>
+    </div>
+</section>
+<section id = "our work">
+    <h1> Our Work</h1>
+    <div class = "work">
+    <div class = "img-container">
+        <img src="images/work 1.jpg" alt="work1">
+        <div class="label2"> <strong> Nail Extention </strong> </div>
+    </div>
+    <div class = "img-container">
+        <img src="images/work 2.jpg" alt="work2">
+        <div class="label2"> <strong> Nail Extention </strong> </div>
+    </div>
+    <div class = "img-container">
+        <img src="images/work 3.jpg" alt="work3">
+        <div class="label2"> <strong> Nail Extention </strong> </div>
+    </div>
+    <div class = "img-container">
+        <img src="images/work 4.jpg" alt="work4">
+        <div class="label2"> <strong> Gel Polish </strong> </div>
+    </div>
+    <div class = "img-container">
+        <img src="images/work 5.jpg" alt="work5">
+        <div class="label2"> <strong> Gel Polish </strong> </div>
+    </div>
+    <div class = "img-container">
+        <img src="images/work 6.jpg" alt="work6">
+        <div class="label2"> <strong> Nail Extention </strong> </div>
+    </div>
+    <div class = "img-container">
+        <img src="images/work 7.jpg" alt="work7">
+        <div class="label2"> <strong> Nail Extention </strong> </div>
+    </div>
+    <div class = "img-container">
+        <img src="images/work 8.jpg" alt="work8">
+        <div class="label2"> <strong> Gel Polish </strong> </div>
+    </div>
+    <div class = "img-container">
+        <img src="images/work 9.jpg" alt="work9">
+        <div class="label2"> <strong> Gel Polish </strong> </div>
+    </div>
+</div>
+</section>  
+<section id="contact">
+   
+    <h1>Get In Touch</h1>
+    
+    <div>
+        <h4>📌Location</h4>
+        <a href="https://maps.app.goo.gl/xpCtCmdiTPCyLh7x7" target="_blank>">
+            253 T.Claudio St. Corner Natividad St. (uncle John's 2nd Floor) San Pedro Morong Rizal
+        </a>
+        <h4>☎️Phone</h4>
+        <p>(63+)952-549-7367</p>
+        <h4>📘Facebook</h4>
+        <a href="https://www.facebook.com/share/18KGJ7DJC9/" target="_blank">
+            PhenomeNail
+        </a>
+        
+    </div>
+</section>
+
+</body>
+<footer>
+    <p>&copy; 2026 PhenomeNail. All Rights Reserve</p>
+    <p>We Make Your Nails With Love</p>
+</footer>
+
+</html>
